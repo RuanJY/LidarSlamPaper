@@ -2,15 +2,13 @@
 这些工作主要围绕着原版本的几个不足展开：没有回环，没有图优化，线性运动假设简单，松耦合IMU，特征提取简单，动态物体去除			
 
 |主要改进|文章|发表|作者|主要内容|
-|----|----|----|----|----|
-|初始	|LOAM: |Lidar Odometry and Mapping in Real-time	|RSS 2014	|Ji Zhang and Sanjiv Singh  |	基本，IMU松耦合
+|----|----|----|----|----||
+|初始	|LOAM: Lidar Odometry and Mapping in Real-time	|RSS 2014	|Ji Zhang and Sanjiv Singh  |	基本，IMU松耦合|
 |紧耦合|	Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast |	ICRA 2015	Ji Zhang and Sanjiv Singh | 	加视觉紧耦合|
-	Laser–visual–inertial odometry and mapping with high robustness and low drift	JFR 2017	Ji Zhang and Sanjiv Singh  	加IMU紧耦合，分析了退化场景下的耦合方法
-	"Tightly Coupled 3D Lidar Inertial Odometry and Mapping
-"	ICRA 2019	Haoyang Ye1, Yuying Chen1 and Ming Liu1	紧耦合IMU，同时有局部图优化，在线标定外参，高动态场景有较大提升
-	LIC-Fusion: LiDAR-Inertial-Camera Odometry	IROS 2019 	Xingxing Zuo∗, Patrick Genevayy, Woosik Leey, Yong Liu∗, and Guoquan Huangy	紧耦合IMU，视觉和激光，基于滤波框架MSCKF
-	"R-LINS: A Robocentric Lidar-Inertial State
-Estimator for Robust and Efficient Navigation"	ICRA 2020	Chao Qin, Haoyang Ye, Christian E. Pranata, Jun Han, Shuyang Zhang, and Ming Liu, Senior Member, IEEE	ESKF 耦合IMU
+|	|Laser–visual–inertial odometry and mapping with high robustness and low drift	|JFR 2017	|Ji Zhang and Sanjiv Singh  |	加IMU紧耦合，分析了退化场景下的耦合方法|
+|	|"Tightly Coupled 3D Lidar Inertial Odometry and Mapping"|	ICRA 2019|	Haoyang Ye1, Yuying Chen1 and Ming Liu1|	紧耦合IMU，同时有局部图优化，在线标定外参，高动态场景有较大提升|
+|	|LIC-Fusion: LiDAR-Inertial-Camera Odometry|	IROS 2019 |	Xingxing Zuo∗, Patrick Genevayy, Woosik Leey, Yong Liu∗, and Guoquan Huangy|	|紧耦合IMU，视觉和激光，基于滤波框架MSCKF|
+|	|"R-LINS: A Robocentric Lidar-Inertial State Estimator for Robust and Efficient Navigation"	|ICRA 2020	|Chao Qin, Haoyang Ye, Christian E. Pranata, Jun Han, Shuyang Zhang, and Ming Liu, Senior Member, IEEE	|ESKF 耦合IMU|
 	"Robust High Accuracy Visual-Inertial-Laser SLAM System
 "	IROS 2019 	"Zengyuan Wang1, Jianhua Zhang1, Shengyong Chen2, Conger Yuan1, Jingqian Zhang1 and Jianwei Zhang3
 "	紧耦合视觉IMU，整合VINS和LOAM，也有回环
