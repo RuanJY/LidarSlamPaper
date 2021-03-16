@@ -2,7 +2,7 @@
 这些工作主要围绕着原版本的几个不足展开：没有回环，没有图优化，线性运动假设简单，松耦合IMU，特征提取简单，动态物体去除			
 
 |主要改进|文章|发表|作者|主要内容|
-|----|----|----|----|----||
+|----|----|----|----|----|
 |初始	|LOAM: Lidar Odometry and Mapping in Real-time	|RSS 2014	|Ji Zhang and Sanjiv Singh  |	基本，IMU松耦合|
 |紧耦合|	Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast |	ICRA 2015	Ji Zhang and Sanjiv Singh | 	加视觉紧耦合|
 |	|Laser–visual–inertial odometry and mapping with high robustness and low drift	|JFR 2017	|Ji Zhang and Sanjiv Singh  |	加IMU紧耦合，分析了退化场景下的耦合方法|
