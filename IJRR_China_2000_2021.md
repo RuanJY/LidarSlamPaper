@@ -1,20 +1,4 @@
-<style>
-table th:first-of-type {
-    width: 10%;
-}
-table th:nth-of-type(2) {
-    width: 40%;
-}
-table th:nth-of-type(3) {
-    width: 20%;
-}
-  table th:nth-of-type(4) {
-    width: 20%;
-}
-  table th:nth-of-type(5) {
-    width: 20%;
-}
-</style>
+
 | **年份** | **标题**                                                                                                                                         | **单位**                                                                                                                                                                                                                                                               | **作者**                                                        | **DOI**                                       |
 |--------|--------------------------------------------|-----------------------|----------------------|-------------------|
 | 2021   | Hierarchical control of soft manipulators towards unstructured interactions                                                                    | Robotics Lab, University of Science and Technology of China,                                                                                                                                                                                                         | Hao Jiang                                                     | https://doi\.org/10\.1177/0278364920979367    |
