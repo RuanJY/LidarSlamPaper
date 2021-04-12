@@ -1,9 +1,9 @@
 Follow the conventional pipeline of SLAM, here are some paper utilizing semantic info.
-# Source of info (Prediction)
+# Creat info (Prediction)
 This kind of methods predict (rather than extract directly) extra information from sensor data.
-# Data Association
+# Process info (Data Association)
 Given info, the next problem is to determine the correspondence. Robust and efficient data association is the core issue in SLAM.
-# Mapping
+# Use info (Mapping)
 This type of method focus on providing high-level map for advanced robotics applications.
 
 | Type                |                        | Paper                                                                                 | Detial                       |
